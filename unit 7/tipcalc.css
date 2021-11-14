@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.enterAmount {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.largeButton {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.tips_grid {
+  margin-top: 10px;
+}
+
+.button {
+  display: flex;
+  padding: 15px 20px;
+  border: none;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.button:hover, .button.active, .button:focus {
+  color: black;
+  background-color: #5e5e5e;
+}
+
+.grids {
+  grid-template-columns: repeat(10, 1fr);
+  display: grid;
+  gap: 18px;
+}
+
+h5 {
+  text-align: left;
+  color: grey;
+  font-size: 20px;
+}
+
+.amount{
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  border: 0px;
+  outline: none;
+  border-color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#amt {
+  border-width: 6px;
+  border-color: black;
+}
